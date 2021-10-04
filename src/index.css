@@ -67,6 +67,9 @@ a {
 /* Common parts ends  */
 
 /* nav bar  */
+.nav-bar {
+	width: 100vw;
+}
 
 /* navbar theme  */
 .nav-bar-dark {
