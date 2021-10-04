@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Become a product Manager learn the skills & job.",
+		"instructor": "Jim Séchen",
+		"lesson": 33,
+		"rating": 4.14,
+		"total": 44,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-1.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-1.jpg",
+		"price": 0
+	},
+	{
+		"title": "Fundamentals of music theory Learn new",
+		"instructor": "Barry Tone",
+		"lesson": 72,
+		"rating": 4.5,
+		"total": 44,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-2.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-2.jpg",
+		"price": 32.77
+	},
+	{
+		"title": "Bases Matemáticas dios Álgebra Ecuacion",
+		"instructor": "Samuel Serif",
+		"lesson": 43,
+		"rating": 4.4,
+		"total": 40,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-7.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-7.jpg",
+		"price": 46
+	},
+	{
+		"title": "Strategy law and organization Foundation",
+		"instructor": "Elon Gated",
+		"lesson": 14,
+		"rating": 3.5,
+		"total": 55,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-3.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg",
+		"price": 46
+	},
+	{
+		"title": "The business Intelligence analyst Course 2022",
+		"instructor": "Jim Séchen",
+		"lesson": 22,
+		"rating": 4.5,
+		"total": 42,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-4.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-4.jpg",
+		"price": 62
+	},
+	{
+		"title": "The business Intelligence analyst Course 2022",
+		"instructor": "Brian Cumin",
+		"lesson": 18,
+		"rating": 4.2,
+		"total": 38,
+		"instructor-img": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-8.jpg",
+		"cover": "https://themepure.net/template/educal/educal/assets/img/course/course-8.jpg",
+		"price": 37
+	}
+]

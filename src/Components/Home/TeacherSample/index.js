@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // components
 import Teacher from "./Teacher";
 // styles
@@ -24,10 +25,10 @@ const TeacherSample = () => {
 					</Col>
 				</Row>
 				<Row className='justify-content-between gx-4'>
-					<Col md={4}>
+					<Col md={4} className='mb-3 mb-md-0'>
 						<Teacher img={teacher1} name='Lillian Walsh' role='CO Founder' />
 					</Col>
-					<Col md={4}>
+					<Col md={4} className='mb-3 mb-md-0'>
 						<Teacher img={teacher2} name='Kelly Franklin' role='Desginer' />
 					</Col>
 					<Col md={4}>
@@ -35,7 +36,7 @@ const TeacherSample = () => {
 					</Col>
 				</Row>
 				<Row className='teacher-btn'>
-					<Button href='/contact' variant='outline-light'>
+					<Button as={NavLink} to='/contact' variant='outline-light'>
 						Become an Instructor
 					</Button>
 				</Row>

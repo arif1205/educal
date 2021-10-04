@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
+// styles
 import { Container, Nav, Navbar } from "react-bootstrap";
 // images
 import logo from "../../images/logo.png";
@@ -38,16 +40,24 @@ const NavMenu = () => {
 			fixed='top'
 			className='py-4 nav-bar nav-bar-dark'>
 			<Container>
-				<Navbar.Brand href='/home' className='me-5'>
+				<Navbar.Brand as={NavLink} to='/' className='me-5'>
 					<img src={logo} alt='logo' id='logo' />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='me-auto nav-menu'>
-						<Nav.Link href='/courses'>Courses</Nav.Link>
-						<Nav.Link href='/about'>About</Nav.Link>
-						<Nav.Link href='/contact'>Contact</Nav.Link>
-						<Nav.Link href='/blog'>Blog</Nav.Link>
+						<Nav.Link as={NavLink} to='/courses'>
+							Courses
+						</Nav.Link>
+						<Nav.Link as={NavLink} to='/about'>
+							About
+						</Nav.Link>
+						<Nav.Link as={NavLink} to='/contact'>
+							Contact
+						</Nav.Link>
+						<Nav.Link as={NavLink} to='/instructor'>
+							Instructor
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

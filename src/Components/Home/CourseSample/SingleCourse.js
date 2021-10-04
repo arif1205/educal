@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // styles
 import { Col } from "react-bootstrap";
 
@@ -11,7 +12,7 @@ const SingleCourse = ({ title, img, des, lesson }) => {
 				</div>
 				<div className='content'>
 					<h3 class='single-course-title'>
-						<a href='/courses'>{title}</a>
+						<NavLink to='/courses'>{title}</NavLink>
 					</h3>
 					<p className='single-course-sub-title'>{des}</p>
 					<div class='single-course-lesson'>

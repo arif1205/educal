@@ -58,6 +58,12 @@ a {
 .show-all i {
 	margin-left: 10px;
 }
+
+@media screen and (max-width: 575px) {
+	.section-title {
+		font-size: 32px;
+	}
+}
 /* Common parts ends  */
 
 /* nav bar  */
@@ -96,7 +102,7 @@ a {
 /* header  */
 
 header {
-	min-height: 100vh;
+	height: 100vh;
 	width: 100%;
 	background: url("./images/home-bg.jpg") no-repeat fixed;
 	background-size: cover;
@@ -154,6 +160,24 @@ header .overlay {
 	border-color: #ffffff !important;
 }
 
+@media screen and (max-width: 575px) {
+	.header-container {
+		left: 60px;
+		bottom: 60px;
+		max-width: 80%;
+	}
+
+	.header-container .title {
+		font-size: 45px;
+	}
+
+	.header-container .sub-title {
+		font-size: 20px;
+	}
+}
+
+/* header part end  */
+
 /* common about part  */
 
 /* Achievement left part  */
@@ -207,6 +231,24 @@ header .overlay {
 	color: #30a820;
 }
 
+@media screen and (max-width: 767px) {
+	.achievement-img {
+		margin-bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.about-img img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.about-banner img {
+		max-width: 200px;
+	}
+}
+
 /* Partner part  */
 .partners {
 	padding-bottom: 110px;
@@ -223,9 +265,37 @@ header .overlay {
 	margin-top: 52px;
 }
 
+.brands {
+	gap: 20px;
+}
+/* common about end  */
+
+/* about part start  */
+.why-me {
+	padding: 80px 0;
+}
+
+.why-me-content {
+	padding: 0 25px;
+}
+
+.why-me-content .pre-title {
+	color: var(--primary-color);
+	font-size: 18px;
+}
+
+.why-me-content .section-sub-title {
+	margin-bottom: 30px;
+}
+
+.why-me-content a {
+	padding: 13px 30px;
+}
+/* about part end  */
+
 /* home courses part  */
 .home__courses {
-	padding: 120px;
+	padding: 120px 0;
 	background: #f3f4f8;
 }
 
@@ -372,6 +442,51 @@ header .overlay {
 	background: var(--primary-color) !important;
 	color: #ffffff;
 }
+
+/* contact start  */
+.contact {
+	padding: 120px 0;
+}
+
+.contact input,
+.contact textarea {
+	background: #f3f4f8;
+	padding: 15px 20px;
+	border: 2px solid transparent;
+	transition: all 0.2s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+	border: 2px solid var(--primary-color);
+	box-shadow: 0 0 0 0;
+	outline: none;
+}
+
+.contact button {
+	padding: 13px 30px;
+}
+/* contact end  */
+
+/* error page start  */
+.error {
+	min-height: 100vh;
+	position: relative;
+	background: var(--dark-color);
+}
+
+.error-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.error-title,
+.error-sub-title {
+	color: white;
+}
+/* error page end  */
 
 /* footer design  */
 footer {

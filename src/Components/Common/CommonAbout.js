@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // styles
 import { Col, Container, Row } from "react-bootstrap";
 // images
@@ -75,7 +76,7 @@ const CommonAbout = () => {
 					</Row>
 					<Row>
 						<Col>
-							<div className='d-flex justify-content-between'>
+							<div className='d-flex justify-content-between brands'>
 								<img src={partner1} alt='brand' />
 								<img src={partner2} alt='brand' />
 								<img src={partner3} alt='brand' />
@@ -88,10 +89,10 @@ const CommonAbout = () => {
 					<Row>
 						<Col>
 							<div class='all-partner text-center'>
-								<a href='/about' className='show-all'>
+								<NavLink to='/about' className='show-all'>
 									View all partners
 									<i class='fas fa-arrow-right'></i>
-								</a>
+								</NavLink>
 							</div>
 						</Col>
 					</Row>

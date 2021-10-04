@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // components
 import SingleCourse from "./SingleCourse";
 // styles
@@ -26,10 +27,10 @@ const CourseSample = () => {
 					</Col>
 					<Col md={4} lg={6}>
 						<div className='hero__courses-more mb-60 float-md-end fix'>
-							<a href='course-grid.html' className='show-all'>
+							<NavLink to='/courses' className='show-all'>
 								View All Courses
 								<i className='fas fa-arrow-right'></i>
-							</a>
+							</NavLink>
 						</div>
 					</Col>
 				</Row>

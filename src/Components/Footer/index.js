@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // styles
 import { Container, Row, Col } from "react-bootstrap";
 // images
@@ -44,16 +45,16 @@ const Footer = () => {
 							<h3 className='company-title'>Company</h3>
 							<ul className='list-unstyled list-inline d-flex'>
 								<li>
-									<a href='/courses'>Courses</a>
+									<NavLink to='/courses'>Courses</NavLink>
 								</li>
 								<li>
-									<a href='/about'>About</a>
+									<NavLink to='/about'>About</NavLink>
 								</li>
 								<li>
-									<a href='/instructor'>Instructor</a>
+									<NavLink to='/instructor'>Instructor</NavLink>
 								</li>
 								<li>
-									<a href='/contact'>Contact</a>
+									<NavLink to='/contact'>Contact</NavLink>
 								</li>
 							</ul>
 						</div>
