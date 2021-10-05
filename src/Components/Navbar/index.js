@@ -46,6 +46,9 @@ const NavMenu = () => {
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='me-auto nav-menu'>
+						<Nav.Link as={NavLink} to='/'>
+							Home
+						</Nav.Link>
 						<Nav.Link as={NavLink} to='/courses'>
 							Courses
 						</Nav.Link>

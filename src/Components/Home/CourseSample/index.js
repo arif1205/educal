@@ -7,6 +7,8 @@ import { Col, Container, Row } from "react-bootstrap";
 // images
 import singlecourse1 from "../../../images/single-course-1.jpg";
 import singlecourse2 from "../../../images/single-course-2.jpg";
+import singlecourse3 from "../../../images/single-course-3.jpg";
+import singlecourse4 from "../../../images/single-course-4.jpg";
 
 const CourseSample = () => {
 	return (
@@ -42,10 +44,22 @@ const CourseSample = () => {
 						lesson={43}
 					/>
 					<SingleCourse
-						title='The Importance Of Intrinsic for Students.'
+						title='The business Intelligence analyst Course 2022'
 						des='Top instructors from around the world teach millions of students on Quillow. Get unlimited.'
 						img={singlecourse2}
 						lesson={30}
+					/>
+					<SingleCourse
+						title='Bases Matemáticas dios Álgebra Ecuacion'
+						des='Top instructors from around the world teach millions of students on Quillow. Get unlimited.'
+						img={singlecourse3}
+						lesson={22}
+					/>
+					<SingleCourse
+						title='Fundamentals of music theory Learn new'
+						des='Top instructors from around the world teach millions of students on Quillow. Get unlimited.'
+						img={singlecourse4}
+						lesson={18}
 					/>
 				</Row>
 			</Container>
